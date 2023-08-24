@@ -1,0 +1,61 @@
+{
+  "name": "pip-tracker-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.8.0",
+    "@mui/material": "^5.8.1",
+    "@tensorflow-models/coco-ssd": "2.2.2",
+    "@tensorflow/tfjs": "3.18.0",
+    "@tensorflow/tfjs-backend-wasm": "3.18.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.1",
+    "@types/node": "^16.11.36",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "dexie": "^3.2.2",
+    "dexie-react-hooks": "^1.1.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "next": "12.2.2",
+    "react-webcam": "^7.0.1",
+    "seedrandom": "^2.4.4",
+    "typescript": "^4.7.2",
+    "web-vitals": "^2.1.4",
+    "workerize-loader": "^2.0.2"
+  },
+  "scripts": {
+    "wasm": "copyfiles -u 4 node_modules/@tensorflow/tfjs-backend-wasm/dist/*.wasm public",
+    "start": "npm run wasm && next dev",
+    "build": "npm run wasm && next build && next export -o build",
+    "deploy": "netlify deploy --prod -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/gtag.js": "^0.0.11",
+    "@types/offscreencanvas": "^2019.7.0",
+    "@types/w3c-image-capture": "^1.0.6",
+    "copyfiles": "^2.4.1"
+  }
+}

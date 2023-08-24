@@ -1,0 +1,113 @@
+{
+   "annotation": {
+      "folder": "my-project-name",
+      "filename": "PXL_20220529_152537180.jpg",
+      "path": "/my-project-name/PXL_20220529_152537180.jpg",
+      "source": {
+         "database": "Unspecified"
+      },
+      "size": {
+         "width": "768",
+         "height": "1024",
+         "depth": "3"
+      },
+      "object": [
+         {
+            "name": "pip-5",
+            "pose": "Unspecified",
+            "truncated": "Unspecified",
+            "difficult": "Unspecified",
+            "bndbox": {
+               "xmin": "303",
+               "ymin": "172",
+               "xmax": "408",
+               "ymax": "280"
+            }
+         },
+         {
+            "name": "pip-5",
+            "pose": "Unspecified",
+            "truncated": "Unspecified",
+            "difficult": "Unspecified",
+            "bndbox": {
+               "xmin": "338",
+               "ymin": "770",
+               "xmax": "441",
+               "ymax": "876"
+            }
+         },
+         {
+            "name": "pip-8",
+            "pose": "Unspecified",
+            "truncated": "Unspecified",
+            "difficult": "Unspecified",
+            "bndbox": {
+               "xmin": "297",
+               "ymin": "279",
+               "xmax": "405",
+               "ymax": "386"
+            }
+         },
+         {
+            "name": "pip-1",
+            "pose": "Unspecified",
+            "truncated": "Unspecified",
+            "difficult": "Unspecified",
+            "bndbox": {
+               "xmin": "250",
+               "ymin": "388",
+               "xmax": "355",
+               "ymax": "490"
+            }
+         },
+         {
+            "name": "pip-2",
+            "pose": "Unspecified",
+            "truncated": "Unspecified",
+            "difficult": "Unspecified",
+            "bndbox": {
+               "xmin": "356",
+               "ymin": "384",
+               "xmax": "459",
+               "ymax": "488"
+            }
+         },
+         {
+            "name": "pip-11",
+            "pose": "Unspecified",
+            "truncated": "Unspecified",
+            "difficult": "Unspecified",
+            "bndbox": {
+               "xmin": "307",
+               "ymin": "589",
+               "xmax": "409",
+               "ymax": "692"
+            }
+         },
+         {
+            "name": "pip-12",
+            "pose": "Unspecified",
+            "truncated": "Unspecified",
+            "difficult": "Unspecified",
+            "bndbox": {
+               "xmin": "202",
+               "ymin": "593",
+               "xmax": "304",
+               "ymax": "694"
+            }
+         },
+         {
+            "name": "pip-9",
+            "pose": "Unspecified",
+            "truncated": "Unspecified",
+            "difficult": "Unspecified",
+            "bndbox": {
+               "xmin": "235",
+               "ymin": "777",
+               "xmax": "339",
+               "ymax": "877"
+            }
+         }
+      ]
+   }
+}
